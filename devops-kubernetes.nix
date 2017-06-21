@@ -319,7 +319,6 @@ l6ZaQelBPCR+yROt6DxrM4shvg9jFlkXKHkWOx5bPB2lqw3ILXFXlOHIvmX96uxB
 
         apiserver = {
           publicAddress = "0.0.0.0";
-          advertiseAddress = "104.236.178.218";
           tlsKeyFile = apiserver_key;
           tlsCertFile = apiserver_cert;
           clientCaFile = ca_pem;
