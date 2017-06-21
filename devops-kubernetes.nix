@@ -330,13 +330,6 @@ l6ZaQelBPCR+yROt6DxrM4shvg9jFlkXKHkWOx5bPB2lqw3ILXFXlOHIvmX96uxB
           tlsKeyFile = worker_key;
           tlsCertFile = worker_cert;
           networkPlugin = null;
-          #cni = {
-          #  config = [{
-          #    cniVersion = "0.2.0";
-          #    name = "mynet";
-          #    type = "flannel";
-          #  }];
-          #};
         };
       };
     };
@@ -359,13 +352,6 @@ l6ZaQelBPCR+yROt6DxrM4shvg9jFlkXKHkWOx5bPB2lqw3ILXFXlOHIvmX96uxB
           tlsKeyFile = worker_key;
           tlsCertFile = worker_cert;
           networkPlugin = null;
-          #cni = {
-          #  config = [{
-          #    cniVersion = "0.2.0";
-          #    name = "mynet";
-          #    type = "flannel";
-          #  }];
-          #};
         };
       };
     };
